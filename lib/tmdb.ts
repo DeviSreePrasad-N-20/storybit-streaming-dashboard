@@ -12,3 +12,4 @@ export async function fetchMovieById(id: string) {
   if (!res.ok) throw new Error('Failed to fetch movie details');
   return res.json();
 }
+
