@@ -64,32 +64,6 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to view the 
 
 ## 📁 Project Structure
 
-storybit-streaming-dashboard/
-├── src/
-│ ├── app/
-│ │ ├── components/
-│ │ │ ├── Header.tsx # Fixed header with branding
-│ │ │ ├── HeroBanner.tsx # Hero banner component
-│ │ │ └── MovieRow.tsx # Horizontal scrolling movie row
-│ │ ├── movie/
-│ │ │ └── [id]/
-│ │ │ └── page.tsx # Dynamic movie detail page
-│ │ ├── layout.tsx # Root layout
-│ │ ├── page.tsx # Homepage
-│ │ └── globals.css # Global styles
-│ ├── lib/
-│ │ └── tmdb.ts # TMDB API helper functions
-│ └── types/
-│ └── movie.ts # TypeScript interfaces
-├── .env.local # Environment variables (not committed)
-├── .gitignore
-├── next.config.ts # Next.js configuration
-├── package.json
-├── tailwind.config.ts # Tailwind CSS configuration
-├── tsconfig.json # TypeScript configuration
-├── README.md
-└── AI_Report.md
-
 
 ## 🌐 API Endpoints Used
 
